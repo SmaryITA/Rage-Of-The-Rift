@@ -1,0 +1,232 @@
+body {
+  background-color: rgb(80, 80, 80);
+  font-family: Arial;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.crafted-by {
+  text-align: center;
+  color: rgb(255, 190, 77);
+  font-weight: bold;
+}
+.intestazione {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.int-sinistra {
+  flex: 1;
+  margin-top: 3px;
+}
+.int-centro {
+  background-color: rgb(214, 157, 88);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  flex: 1;
+}
+.int-destra {
+  flex: 1;
+  margin-top: 3px;
+}
+.pic {
+  width: 44px;
+  height: 44px;
+}
+.titolo {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+.tabella {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+@media (max-width: 950px) {
+  .tabella {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.riquadro {
+  background-color: rgb(214, 157, 88);
+  color: black;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+}
+.posizione {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: background-color 0.1s;
+}
+.testo {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.tabella-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+@media (max-width: 950px) {
+  .tabella-2 {
+    grid-template-columns: 1fr;
+  }
+}
+.testo-nome {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  padding: 4px;
+}
+.box-pic {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 6px;
+}
+.testo-statistics {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  padding: 4px;
+}
+.posizione-2 {
+  display: flex;
+  flex-direction: column;
+}
+.box-statistics {
+  background-color: rgb(214, 157, 88);
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.tabella-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+@media (max-width: 1500px) {
+  .tabella-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 880px) {
+  .tabella-3 {
+    grid-template-columns: 1fr;
+  }
+}
+.box-scroll {
+  font-size: 15px;
+  background-color: rgb(214, 157, 88);
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+.box-immagine {
+  margin-right: 15px;
+}
+.pic-3 {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+.box-testo {
+  flex: 1;
+}
+.nome-scroll {
+  display: flex;
+  flex-direction: row;
+}
+.rank-scroll {
+  text-align: right;
+}
+.box-stat {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.stat-scroll {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.sfondo-verde {
+  background-color: rgb(37, 124, 63);
+  font-weight: bold;
+}
+.sfondo-rosso {
+  background-color: rgb(167, 61, 61);
+  font-weight: bold;
+}
+.pic-4 {
+  width: 44px;
+  height: 40px;
+  margin-top: 2px;
+}
+.tabella-4 {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+@media (max-width: 950px) {
+  .tabella-4 {
+    grid-template-columns: 1fr;
+  }
+}
+.craft-box {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(214, 157, 88);
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.materiali {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
